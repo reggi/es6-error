@@ -1,13 +1,12 @@
 {
   "name": "reggi-es6-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily-extendable error for use with ES6 classes",
   "main": "./lib/index",
   "jsnext:main": "./src/index",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive",
-    "build": "babel ./src --out-dir ./lib",
-    "prepublish": "npm run build && npm run test"
+    "build": "babel ./src --out-dir ./lib"
   },
   "repository": {
     "type": "git",
